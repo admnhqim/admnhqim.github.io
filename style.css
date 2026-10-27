@@ -249,3 +249,27 @@ footer { text-align: center; padding: 2rem; border-top: 1px solid #334155; color
 
   </div>
 </section>
+/* Navbar Brand Layout */
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Navbar Logo Styling */
+.faculty-logo {
+  height: 40px;          /* Adjust height cleanly */
+  width: auto;           /* Maintains original proportions */
+  object-fit: contain;   /* Prevents stretching or distortion */
+}
+
+/* Hero Section Badge (If using Option B) */
+.institution-badge {
+  margin-bottom: 1rem;
+}
+
+.faculty-logo-hero {
+  max-width: 220px;      /* Fits nicely above headline */
+  height: auto;          /* Preserves original aspect ratio */
+  object-fit: contain;
+}
