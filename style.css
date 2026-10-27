@@ -8,7 +8,21 @@
   --card-bg: #1e293b;
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* Profile Picture Styling */
+.profile-img-container {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
 
+.profile-img {
+  width: 160px; /* Limits the width */
+  height: 160px; /* Limits the height */
+  object-fit: cover; /* Keeps aspect ratio perfect */
+  border-radius: 50%; /* Makes it circular */
+  border: 3px solid #38bdf8; /* Accent border color */
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
 * {
   margin: 0;
   padding: 0;
